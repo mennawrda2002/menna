@@ -1,0 +1,181 @@
+html{
+
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 16px;
+
+    color:black;
+
+}
+  
+
+header{
+
+    min-height:100vh ;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../imeg/6.jpg);
+    
+    background-position: center;
+    background-size: cover;
+}
+
+header img{
+
+width: 200px;
+margin: 30px;
+padding: left 0;
+margin: right 200px; 
+
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+ 
+
+}
+
+.main-nav{
+
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li{
+
+
+margin-left: 30px;
+
+margin-top: 30px;
+
+}
+
+.main-nav li a{
+
+    text-decoration: none;
+    color:black;
+    font-size:x-large;
+    text-transform: uppercase;
+   letter-spacing: 5px;
+}
+
+
+
+.main-nav li a:hover{
+
+    text-decoration:line-through;
+    color:hotpink;
+
+}
+
+header h1{
+
+    font: size 2rem; 
+    color:white;
+     white-space: 5px;
+     letter-spacing: 2px;
+     margin-bottom: 20px;
+}
+
+.main-header{
+
+  position: absolute;
+  top:40% ;
+  left: 25%;
+}
+
+.btn{
+
+    border:solid 1px pink ;
+    margin-left: 20px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+  
+.btn:hover{
+
+    color:hotpink ;
+    background-color: black;
+}
+
+section{
+
+    padding: 40px 0px;
+}
+
+h2{
+
+  font-size:x-large;
+  text-align: center; 
+  letter-spacing: 2px;
+}
+
+hr{
+    
+    width: 200px;
+    color: hotpink;
+    border: solid 3px hotpink;
+  background-color: hotpink;
+  margin-bottom: 20px;
+
+}
+
+.know{
+
+    line-height: 1.5;
+    text-align: center;
+}
+
+.box h2{
+
+    color:hotpink;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box p{
+
+  text-align: center;
+}
+
+span{
+
+    color: hotpink;
+}
+
+.box i{
+
+    font-size: 50px;
+    color: black;
+    padding-left: 80px ;
+    
+}
+
+#who1 h2{
+
+    background-color: hotpink;
+    color:black;
+    font-size: xx-large;
+}
+
+#who1 img{
+
+width: 200px;
+ border: solid 5px black;
+
+}
+
+ #who1 img:hover{
+
+background-color: hotpink;
+opacity: .9;
+
+ }
+
+ .phh img{
+
+   margin-right: 45px;
+   
+ }
